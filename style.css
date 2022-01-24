@@ -1,5 +1,11 @@
 body {
-    background-color: orange;
+    background-color: yellow;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+    padding-bottom: 1.5em;
 }
 
 #board {
