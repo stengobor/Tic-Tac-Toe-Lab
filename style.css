@@ -1,0 +1,40 @@
+body {
+    background-color: orange;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+.row {
+    margin: 0 auto;
+    clear: both;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.left {
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
