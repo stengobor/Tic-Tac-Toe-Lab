@@ -1,10 +1,21 @@
 body {
-    background-color: yellow;
+    background-image: url(https://media0.giphy.com/media/RG0iG347ARHPa8trtz/giphy.gif);
+    background-size: cover;
+    height: 100px;
+    padding:0;
+    margin:0;
 }
 
 h1 {
+    color: red;
+    padding-bottom: 5px;
+    border: white solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+h2 {
     color: blue;
-    text-decoration: underline;
     padding-bottom: 1em;
     text-transform: uppercase;
 }
@@ -14,11 +25,12 @@ h1 {
     height: 50px;
     margin-top: 25px;
     font-size: 20px;
-    border-radius: 20px;
     font-family: monospace;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: white;
+    border: none;
     background-color: magenta;
 }
 
@@ -48,18 +60,18 @@ h1 {
 }
 
 .top {
-    border-bottom: 1px solid black;
+    border-bottom: 8px solid black;
 }
 
 
 .bottom {
-    border-top: 1px solid black;
+    border-top: 8px solid black;
 }
 
 .left {
-    border-right: 1px solid black;
+    border-right: 8px solid black;
 }
 
 .right {
-    border-left: 1px solid black;
+    border-left: 8px solid black;
 }
