@@ -21,64 +21,13 @@ function cellClicked(event) {
         console.log(turnCounter)
         if (playerHasWon()) {
             playText.innerText = (currentPlayer + ' Has Won!');
-        } else if(turnCounter == 9) {
+        } else if (turnCounter == 9) {
             playText.innerText = ('Draw!');
-     
+
         }
         currentPlayer = currentPlayer === O_TEXT ? X_TEXT : O_TEXT;
-        // if (playersHaveDrawn()) {
-        //     playText.innerText = ('Draw!');
-        //     return;
-        // }
     }
 }
-
-
-// const playersHaveDrawn = () => {
-//     if (spaces[0] === currentPlayer) {
-//         if (spaces[1] === X_TEXT && spaces[2] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//         if (spaces[3] === X_TEXT && spaces[6] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//         if (spaces[4] === X_TEXT && spaces[8] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//     }
-//     if (spaces[4] === currentPlayer) {
-//         if (spaces[1] === X_TEXT && spaces[7] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//         if (spaces[3] === X_TEXT && spaces[5] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//         if (spaces[2] === X_TEXT && spaces[6] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//     }
-//     if (spaces[8] === currentPlayer) {
-//         if (spaces[7] === X_TEXT && spaces[6] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//         if (spaces[5] === X_TEXT && spaces[2] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//         if (spaces[4] === X_TEXT && spaces[0] === O_TEXT) {
-//             console.log("Players Have Drawn");
-//             return (true);
-//         }
-//     }
-// }
-
 
 
 
